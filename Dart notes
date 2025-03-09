@@ -14,3 +14,33 @@ final int a = 7;
 const String lastname = "Pedro";
 
 
+//****************
+Functions - void if it doesn't return anything
+
+import 'dart:math';
+
+void greet() {
+  print("Your BMI");
+}
+
+double bmi (double weigh, double height)  {
+  return weigh  / pow(height, 2);
+}
+
+void main() {
+  greet();
+  print(bmi(180, 1.69));
+}
+//we imported dart:math so we can use pow for the height, otherwise
+the code would be return weigh / (height * height)
+
+//******************
+
+
+
+
+
+
+
+
+
