@@ -1,0 +1,16 @@
+HOW TO DECLARE A VARIABLE:
+
+*var: uses the value that was assigned to infer what type of variable it is.
+var petname = 'Chester';
+
+*You can create a variable by specifying what type of value it has.
+String pet = 'Chester';
+double weigh = 10;
+
+*final: It creates a value which can't be modified.
+final int a = 7;
+
+*const: It creates a constant variable that is evaluated while compiling, not on runtime.
+const String lastname = "Pedro";
+
+
