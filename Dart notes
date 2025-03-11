@@ -35,7 +35,11 @@ void main() {
 the code would be return weigh / (height * height)
 
 //******************
-
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+  
+  // Access an element
+  print(numeros[0]); // 1
 
 
 
